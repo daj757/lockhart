@@ -37,11 +37,11 @@ const People = () => (
             <Card raised color="black">
               <Image src="/assets/images/avatar/large/matthew.png" />
               <Card.Content>
-                <Card.Header>Jaime Jimenez</Card.Header>
+                <Card.Header>Employee</Card.Header>
                 <Card.Meta>
-                  <span className="date">General Manager</span>
+                  <span className="date">Title</span>
                 </Card.Meta>
-                <Card.Description>Jaime Jimenez is</Card.Description>
+                <Card.Description>Summary</Card.Description>
               </Card.Content>
             </Card>
           </Grid.Column>
@@ -49,11 +49,11 @@ const People = () => (
             <Card raised color="black">
               <Image src="/assets/images/avatar/large/matthew.png" />
               <Card.Content>
-                <Card.Header>Carlos Jimenez</Card.Header>
+                <Card.Header>Employee</Card.Header>
                 <Card.Meta>
-                  <span className="date">Map specialist</span>
+                  <span className="date">Title</span>
                 </Card.Meta>
-                <Card.Description>Carlos Jimenez is</Card.Description>
+                <Card.Description>Summary</Card.Description>
               </Card.Content>
             </Card>
           </Grid.Column>
@@ -61,11 +61,11 @@ const People = () => (
             <Card raised color="black">
               <Image src="/assets/images/avatar/large/matthew.png" />
               <Card.Content>
-                <Card.Header>Jaime Jimenez</Card.Header>
+                <Card.Header>Employee</Card.Header>
                 <Card.Meta>
-                  <span className="date">General Manager</span>
+                  <span className="date">Title</span>
                 </Card.Meta>
-                <Card.Description>Jaime Jimenez is</Card.Description>
+                <Card.Description>Summary</Card.Description>
               </Card.Content>
             </Card>
           </Grid.Column>
@@ -73,11 +73,11 @@ const People = () => (
             <Card raised color="black">
               <Image src="/assets/images/avatar/large/matthew.png" />
               <Card.Content>
-                <Card.Header>Jaime Jimenez</Card.Header>
+                <Card.Header>Employee</Card.Header>
                 <Card.Meta>
-                  <span className="date">General Manager</span>
+                  <span className="date">Title</span>
                 </Card.Meta>
-                <Card.Description>Jaime Jimenez is</Card.Description>
+                <Card.Description>Summary</Card.Description>
               </Card.Content>
             </Card>
           </Grid.Column>
@@ -91,11 +91,11 @@ const People = () => (
             <Card raised color="black">
               <Image src="/assets/images/avatar/large/matthew.png" />
               <Card.Content>
-                <Card.Header>Jaime Jimenez</Card.Header>
+                <Card.Header>Employee</Card.Header>
                 <Card.Meta>
-                  <span className="date">General Manager</span>
+                  <span className="date">Title</span>
                 </Card.Meta>
-                <Card.Description>Jaime Jimenez is</Card.Description>
+                <Card.Description>Summary</Card.Description>
               </Card.Content>
             </Card>
           </Grid.Column>
@@ -103,11 +103,11 @@ const People = () => (
             <Card raised color="black">
               <Image src="/assets/images/avatar/large/matthew.png" />
               <Card.Content>
-                <Card.Header>Carlos Jimenez</Card.Header>
+                <Card.Header>Employee</Card.Header>
                 <Card.Meta>
-                  <span className="date">Map specialist</span>
+                  <span className="date">Title</span>
                 </Card.Meta>
-                <Card.Description>Carlos Jimenez is</Card.Description>
+                <Card.Description>Summary</Card.Description>
               </Card.Content>
             </Card>
           </Grid.Column>
@@ -115,11 +115,11 @@ const People = () => (
             <Card raised color="black">
               <Image src="/assets/images/avatar/large/matthew.png" />
               <Card.Content>
-                <Card.Header>Jaime Jimenez</Card.Header>
+                <Card.Header>Employee</Card.Header>
                 <Card.Meta>
-                  <span className="date">General Manager</span>
+                  <span className="date">Title</span>
                 </Card.Meta>
-                <Card.Description>Jaime Jimenez is</Card.Description>
+                <Card.Description>Summary</Card.Description>
               </Card.Content>
             </Card>
           </Grid.Column>
@@ -127,11 +127,11 @@ const People = () => (
             <Card raised color="black">
               <Image src="/assets/images/avatar/large/matthew.png" />
               <Card.Content>
-                <Card.Header>Jaime Jimenez</Card.Header>
+                <Card.Header>Employee</Card.Header>
                 <Card.Meta>
-                  <span className="date">General Manager</span>
+                  <span className="date">title</span>
                 </Card.Meta>
-                <Card.Description>Jaime Jimenez is</Card.Description>
+                <Card.Description>Summary</Card.Description>
               </Card.Content>
             </Card>
           </Grid.Column>
