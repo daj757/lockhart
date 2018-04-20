@@ -6,6 +6,7 @@ import {
   Segment,
   SegmentGroup,
   Responsive,
+  Container,
 } from 'semantic-ui-react'
 
 const LandingPage = () => (
@@ -61,8 +62,9 @@ const LandingPage = () => (
           color: 'white',
           opacity: '0.6',
           textAlign: 'center',
-          fontSize: '65px',
+          fontSize: '55px',
           fontFamily: 'Russo One, sans-serif',
+          marginTop: '10px',
         }}
       >
         Lockhart

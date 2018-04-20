@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Menu, Responsive } from 'semantic-ui-react'
+import { Menu, Responsive, Dropdown } from 'semantic-ui-react'
 import Employment from './employment'
 
 export default class Header extends Component {
@@ -82,55 +82,62 @@ export default class Header extends Component {
           <Menu
             style={{ fontFamily: 'Russo One, sans-serif' }}
             inverted
-            stackable
-            fluid
-            widths={6}
+            fixed="top"
           >
-            <Menu.Item>
-              <img src="/logo.png" />
-            </Menu.Item>
-
-            <Menu.Item
-              name="our-people"
-              active={activeItem === 'our-people'}
-              onClick={this.handleItemClick}
-              href="#our-people"
-            >
-              Our People
-            </Menu.Item>
-
-            <Menu.Item
-              name="our-process"
-              active={activeItem === 'our-process'}
-              onClick={this.handleItemClick}
-              href="#process"
-            >
-              Our Process
-            </Menu.Item>
-            <Menu.Item
-              name="how-it-workds"
-              active={activeItem === 'how-it-works'}
-              onClick={this.handleItemClick}
-              href="#how-it-works"
-            >
-              How it works
-            </Menu.Item>
-            <Menu.Item
-              name="Employment"
-              active={activeItem === 'Employment'}
-              onClick={this.handleItemClick}
-              href="#employment"
-            >
-              Employment
-            </Menu.Item>
-            <Menu.Item
-              name="contact"
-              active={activeItem === 'contact'}
-              onClick={this.handleItemClick}
-              href="#contact"
-            >
-              Contact
-            </Menu.Item>
+            <Menu.Menu position="right">
+              <Dropdown
+                style={{
+                  color: 'white',
+                  marginRight: '15px',
+                  marginTop: '10px',
+                  fontSize: '20px',
+                }}
+                icon="bars"
+              >
+                <Dropdown.Menu>
+                  <Dropdown.Item
+                    name="our-people"
+                    active={activeItem === 'our-people'}
+                    onClick={this.handleItemClick}
+                    href="#our-people"
+                  >
+                    Our People
+                  </Dropdown.Item>
+                  <Dropdown.Item
+                    name="our-process"
+                    active={activeItem === 'our-process'}
+                    onClick={this.handleItemClick}
+                    href="#process"
+                  >
+                    Our Process
+                  </Dropdown.Item>
+                  <Dropdown.Item
+                    name="how-it-workds"
+                    active={activeItem === 'how-it-works'}
+                    onClick={this.handleItemClick}
+                    href="#how-it-works"
+                  >
+                    How it works
+                  </Dropdown.Item>
+                  <Dropdown.Item
+                    name="Employment"
+                    active={activeItem === 'Employment'}
+                    onClick={this.handleItemClick}
+                    href="#employment"
+                  >
+                    Employment
+                  </Dropdown.Item>
+                  <Dropdown.Item
+                    name="contact"
+                    active={activeItem === 'contact'}
+                    onClick={this.handleItemClick}
+                    href="#contact"
+                  >
+                    Contact
+                  </Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
+            </Menu.Menu>
           </Menu>
         </Responsive>
       </div>
