@@ -1,5 +1,5 @@
 import React from 'react'
-import grass from '../../public/static/images/grass.jpg'
+import grass from '../images/grass.jpg'
 import {
   Container,
   Image,

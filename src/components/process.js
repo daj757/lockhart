@@ -1,8 +1,8 @@
 import React from 'react'
-import field from '../../public/static/images/field.jpg'
-import permitting from '../../public/static/images/permitting.jpg'
-import seismic from '../../public/static/images/seismic.jpg'
-import truck from '../../public/static/images/truck.jpg'
+import field from '../images/field.jpg'
+import permitting from '../images/permitting.jpg'
+import seismic from '../images/seismic.jpg'
+import truck from '../images/truck.jpg'
 import {
   Container,
   Image,

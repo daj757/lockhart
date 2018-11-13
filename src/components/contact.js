@@ -1,7 +1,7 @@
 import React from 'react'
-import field2 from '../../public/static/images/field2.jpg'
-import jaime from '../../public/static/images/jaime.jpg'
-import carlos from '../../public/static/images/carlos.jpg'
+import field2 from '../images/field2.jpg'
+import jaime from '../images/jaime.jpg'
+import carlos from '../images/carlos.jpg'
 import {
   Container,
   Image,

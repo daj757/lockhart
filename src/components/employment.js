@@ -1,5 +1,5 @@
 import React from 'react'
-import grass from '../../public/static/images/grass.jpg'
+import grass from '../images/grass.jpg'
 import {
   Container,
   Image,
@@ -8,7 +8,7 @@ import {
   Card,
   Grid,
 } from 'semantic-ui-react'
-import employee from '../../public/static/images/employment.jpeg'
+import employee from '../images/employment.jpeg'
 
 //https://drive.google.com/file/d/1fbDJRtU_nT6AlL3CkI_mEGNqrDjhyh-C/view?usp=sharing
 const Employment = () => (

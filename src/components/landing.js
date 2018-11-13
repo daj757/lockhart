@@ -1,4 +1,4 @@
-import oil from '../../public/static/images/oil.jpg'
+import oil from '../images/oil.jpg'
 import React from 'react'
 import {
   Image,
