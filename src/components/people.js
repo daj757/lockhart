@@ -6,36 +6,34 @@ import {
   Header,
   Responsive,
   Card,
-  Grid,
+  Grid
 } from 'semantic-ui-react'
 
 const People = () => (
   <div
     id="our-people"
     style={{
-      backgroundImage: `url(${grass})`,
-      width: '100%',
-      paddingBottom: '50px',
-      backgroundSize: 'cover',
-    }}
-  >
+    backgroundImage: `url(${grass})`,
+    width: '100%',
+    paddingBottom: '50px',
+    backgroundSize: 'cover'
+  }}>
     <Header
       style={{
-        padding: '45px',
-        fontSize: '35px',
-        fontFamily: 'Russo One, sans-serif',
-      }}
+      padding: '45px',
+      fontSize: '35px',
+      fontFamily: 'Russo One, sans-serif'
+    }}
       inverted
       textAlign="center"
       size="huge"
-      content="Our People"
-    />
+      content="Our People"/>
     <Responsive minWidth={768}>
       <Container>
         <Grid columns={4}>
           <Grid.Column>
             <Card raised color="black">
-              <Image src="/assets/images/avatar/large/matthew.png" />
+              <Image src="/assets/images/avatar/large/matthew.png"/>
               <Card.Content>
                 <Card.Header>Employee</Card.Header>
                 <Card.Meta>
@@ -47,7 +45,7 @@ const People = () => (
           </Grid.Column>
           <Grid.Column>
             <Card raised color="black">
-              <Image src="/assets/images/avatar/large/matthew.png" />
+              <Image src="/assets/images/avatar/large/matthew.png"/>
               <Card.Content>
                 <Card.Header>Employee</Card.Header>
                 <Card.Meta>
@@ -59,7 +57,7 @@ const People = () => (
           </Grid.Column>
           <Grid.Column>
             <Card raised color="black">
-              <Image src="/assets/images/avatar/large/matthew.png" />
+              <Image src="/assets/images/avatar/large/matthew.png"/>
               <Card.Content>
                 <Card.Header>Employee</Card.Header>
                 <Card.Meta>
@@ -71,7 +69,7 @@ const People = () => (
           </Grid.Column>
           <Grid.Column>
             <Card raised color="black">
-              <Image src="/assets/images/avatar/large/matthew.png" />
+              <Image src="/assets/images/avatar/large/matthew.png"/>
               <Card.Content>
                 <Card.Header>Employee</Card.Header>
                 <Card.Meta>
@@ -89,7 +87,7 @@ const People = () => (
         <Grid columns={2}>
           <Grid.Column>
             <Card raised color="black">
-              <Image src="/assets/images/avatar/large/matthew.png" />
+              <Image src="/assets/images/avatar/large/matthew.png"/>
               <Card.Content>
                 <Card.Header>Employee</Card.Header>
                 <Card.Meta>
@@ -101,7 +99,7 @@ const People = () => (
           </Grid.Column>
           <Grid.Column>
             <Card raised color="black">
-              <Image src="/assets/images/avatar/large/matthew.png" />
+              <Image src="/assets/images/avatar/large/matthew.png"/>
               <Card.Content>
                 <Card.Header>Employee</Card.Header>
                 <Card.Meta>
@@ -113,7 +111,7 @@ const People = () => (
           </Grid.Column>
           <Grid.Column>
             <Card raised color="black">
-              <Image src="/assets/images/avatar/large/matthew.png" />
+              <Image src="/assets/images/avatar/large/matthew.png"/>
               <Card.Content>
                 <Card.Header>Employee</Card.Header>
                 <Card.Meta>
@@ -125,7 +123,7 @@ const People = () => (
           </Grid.Column>
           <Grid.Column>
             <Card raised color="black">
-              <Image src="/assets/images/avatar/large/matthew.png" />
+              <Image src="/assets/images/avatar/large/matthew.png"/>
               <Card.Content>
                 <Card.Header>Employee</Card.Header>
                 <Card.Meta>

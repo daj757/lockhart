@@ -1,5 +1,7 @@
 import React from 'react'
 import field2 from '../../public/static/images/field2.jpg'
+import jaime from '../../public/static/images/jaime.jpg'
+import carlos from '../../public/static/images/carlos.jpg'
 import {
   Container,
   Image,
@@ -8,6 +10,7 @@ import {
   List,
   Embed,
   Modal,
+  Card
 } from 'semantic-ui-react'
 
 const Contact = () => (
@@ -33,6 +36,24 @@ const Contact = () => (
         content="Contact Us"
       />
       <Grid columns={2} padded>
+      <Grid.Row columns={3}>
+      <Card.Group centered stackable>
+            <Card  color="black">
+              <Image raised src={jaime}/>
+              <Card.Content>
+                <Card.Header>Jaime Jimenez</Card.Header>
+                <Card.Description>Email: jaime@lockhartgeo.com</Card.Description>
+              </Card.Content>
+            </Card>
+            <Card raised color="black">
+              <Image src={carlos}/>
+              <Card.Content>
+                <Card.Header>Carlos Jimenez</Card.Header>
+                <Card.Description>Email: carlos@lockhartgeo.com</Card.Description>
+              </Card.Content>
+            </Card>
+          </Card.Group>
+          </Grid.Row>
         <Grid.Column>
           <Header
             size="huge"
@@ -43,6 +64,7 @@ const Contact = () => (
           />
           <List inverted style={{ color: 'white', fontSize: '20px' }}>
             <Modal
+              closeIcon
               style={{
                 marginTop: '75px',
                 marginLeft: '20px',
@@ -90,6 +112,7 @@ const Contact = () => (
           />
           <List inverted style={{ color: 'white', fontSize: '20px' }}>
             <Modal
+              closeIcon
               style={{
                 marginTop: '75px',
                 marginLeft: '20px',

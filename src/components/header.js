@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import { Menu, Responsive, Dropdown } from 'semantic-ui-react'
 import Employment from './employment'
-
+import logo from '../../public/static/images/logo.png'
 export default class Header extends Component {
   state = {}
 
   handleItemClick = (e, { name }) => this.setState({ activeItem: name })
+
 
   render() {
     const { activeItem } = this.state
@@ -22,7 +23,7 @@ export default class Header extends Component {
             fixed="top"
           >
             <Menu.Item>
-              <img src="/logo.png" />
+              <img src={logo}/>
             </Menu.Item>
 
             <Menu.Item
@@ -35,14 +36,14 @@ export default class Header extends Component {
               About Us
             </Menu.Item>
 
-            <Menu.Item
+            {/* <Menu.Item
               name="our-people"
               active={activeItem === 'our-people'}
               onClick={this.handleItemClick}
               href="#our-people"
             >
               Our People
-            </Menu.Item>
+            </Menu.Item> */}
 
             <Menu.Item
               name="our-process"
@@ -84,11 +85,11 @@ export default class Header extends Component {
             inverted
             fixed="top"
           >
-            <Menu.Menu position="right">
+            <Menu.Menu position="left">
               <Dropdown
                 style={{
                   color: 'white',
-                  marginRight: '15px',
+                  marginLeft: '15px',
                   marginTop: '10px',
                   fontSize: '20px',
                 }}

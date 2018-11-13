@@ -21,7 +21,7 @@ const HowVideo = () => (
       inverted
       textAlign="center"
       size="huge"
-      content="How it works"
+      content="How it Works"
     />
     <Container>
       <Embed id="8h35KsRD0c0" source="youtube" />

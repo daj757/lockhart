@@ -64,7 +64,7 @@ const LandingPage = () => (
           textAlign: 'center',
           fontSize: '55px',
           fontFamily: 'Russo One, sans-serif',
-          marginTop: '10px',
+          marginTop: '15px',
         }}
       >
         Lockhart

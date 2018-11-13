@@ -9,12 +9,11 @@ import LandingPage from '../components/landing'
 import Contact from '../components/contact'
 import Process from '../components/process'
 import HowVideo from '../components/howVideo'
-import People from '../components/people'
 import Footer from '../components/footer'
 import icon from '../../public/favicon.png'
 import Employment from '../components/employment'
 
-const Layout = ({ children, data }) => (
+const Layout = ({  data }) => (
   <div>
     <Helmet>
       <meta charSet="utf-8" />
@@ -27,7 +26,6 @@ const Layout = ({ children, data }) => (
     </Helmet>
     <Header />
     <LandingPage />
-    <People />
     <Process />
     <HowVideo />
     <Employment />
@@ -41,7 +39,6 @@ const Layout = ({ children, data }) => (
         paddingTop: 0,
       }}
     >
-      {children()}
     </div>
   </div>
 )
@@ -52,12 +49,12 @@ Layout.propTypes = {
 
 export default Layout
 
-// export const query = graphql`
-//   query SiteTitleQuery {
-//     site {
-//       siteMetadata {
-//         title
-//       }
-//     }
-//   }
-// `
+export const query = graphql`
+  query SiteTitleQuery {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
+`
