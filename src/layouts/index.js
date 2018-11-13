@@ -10,7 +10,7 @@ import Contact from '../components/contact'
 import Process from '../components/process'
 import HowVideo from '../components/howVideo'
 import Footer from '../components/footer'
-import icon from '../../public/favicon.png'
+import icon from '../../public/static/images/logo.png'
 import Employment from '../components/employment'
 
 const Layout = ({  data }) => (
