@@ -15,16 +15,15 @@ import {
 
 const Contact = () => (
   <div
-    id="contact"
+  id="contact"
     style={{
       backgroundImage: `url(${field2})`,
-      paddingBottom: '50px',
       width: '100%',
       backgroundSize: 'cover',
       fontFamily: 'Russo One, sans-serif',
     }}
   >
-    <Container>
+    <Container style={{ paddingBottom: '50px', paddingTop: '50px'}}>
       <Header
         style={{
           padding: '20px',

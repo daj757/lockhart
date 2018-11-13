@@ -17,6 +17,7 @@ const Employment = () => (
     style={{
       backgroundImage: `url(${grass})`,
       paddingBottom: '50px',
+      paddingTop: '50px',
       backgroundSize: 'cover',
     }}
   >

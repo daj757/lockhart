@@ -16,8 +16,9 @@ const LandingPage = () => (
       position: 'relative',
     }}
   >
-    <Image src={oil} fluid style={{ marginBottom: '4px' }} />
+    
     <Responsive minWidth={700}>
+    <Image src={oil} fluid style={{ marginBottom: '4px' }} />
       <Header
         size="huge"
         style={{
@@ -51,6 +52,7 @@ const LandingPage = () => (
       </Header>
     </Responsive>
     <Responsive maxWidth={699}>
+    <Image  src={oil} fluid style={{ height: '575px', marginBottom: '4px' }} />
       <Header
         size="huge"
         style={{

@@ -84,6 +84,8 @@ export default class Header extends Component {
             style={{ fontFamily: 'Russo One, sans-serif' }}
             inverted
             fixed="top"
+            widths={3}
+            borderless
           >
             <Menu.Menu position="left">
               <Dropdown
@@ -96,14 +98,14 @@ export default class Header extends Component {
                 icon="bars"
               >
                 <Dropdown.Menu>
-                  <Dropdown.Item
+                  {/* <Dropdown.Item
                     name="our-people"
                     active={activeItem === 'our-people'}
                     onClick={this.handleItemClick}
                     href="#our-people"
                   >
                     Our People
-                  </Dropdown.Item>
+                  </Dropdown.Item> */}
                   <Dropdown.Item
                     name="our-process"
                     active={activeItem === 'our-process'}
@@ -139,6 +141,12 @@ export default class Header extends Component {
                 </Dropdown.Menu>
               </Dropdown>
             </Menu.Menu>
+            <Menu.Item>
+              <img centered src={logo}/>
+            </Menu.Item>
+            <Menu.Item>
+              
+            </Menu.Item>
           </Menu>
         </Responsive>
       </div>

@@ -10,6 +10,7 @@ const HowVideo = () => (
       backgroundSize: 'cover',
       width: '100%',
       paddingBottom: '50px',
+      paddingTop: '25px'
     }}
   >
     <Header

@@ -19,6 +19,7 @@ const Process = () => (
       backgroundSize: 'cover',
       width: '100%',
       paddingBottom: '50px',
+     
     }}
   >
     <Header
@@ -29,6 +30,7 @@ const Process = () => (
       content="Our Process"
       style={{
         padding: '45px',
+        paddingTop: '55px',
         fontSize: '35px',
         fontFamily: 'Russo One, sans-serif',
       }}
