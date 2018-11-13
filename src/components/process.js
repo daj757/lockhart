@@ -36,7 +36,7 @@ const Process = () => (
       }}
     />
     <Container fluid>
-      <Grid stretched stackable columns={3}>
+      <Grid padded stretched stackable columns={3}>
         <Grid.Column>
           <Segment>
             <Header textAlign="center" content="Permitting" />
