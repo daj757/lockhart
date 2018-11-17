@@ -3,6 +3,8 @@ import field from '../images/field.jpg'
 import permitting from '../images/permitting.jpg'
 import seismic from '../images/seismic.jpg'
 import truck from '../images/truck.jpg'
+import drone from '../images/drone.gif'
+import droneField from "../images/dronefield.gif"
 import {
   Container,
   Image,
@@ -84,7 +86,9 @@ const Process = () => (
         <Grid.Column>
           <Segment>
             <Header textAlign="center" content="Improving our proccess" />
-            <Image rounded centered src={permitting} />
+            <Image rounded centered src={droneField}/>
+            <br />
+            <Image rounded centered src={drone}/>
             <br/>
             <p>
               We strive to use the best technology for the job at hand. Drones allow us to minimize
