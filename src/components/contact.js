@@ -44,22 +44,22 @@ const Contact = () => (
     <Card>
       <Card.Content>
         <Card.Header>Jaime Jimenez</Card.Header>
-       <Card.Meta>jaime@lockhartgeo.com</Card.Meta>
+        <a href="mailto:jaime@lockhartgeo.com"><Card.Meta content='jaime@lockhartgeo.com' /></a>
       </Card.Content>
     </Card>
 
     <Card>
       <Card.Content>
         <Card.Header content='Carlos Jimenez' />
-        <Card.Meta content='carlos@lockhartgeo.com' />
+        <a href="mailto:carlos@lockhartgeo.com"><Card.Meta content='carlos@lockhartgeo.com' /></a>
       </Card.Content>
     </Card>
 
     <Card>
-      <Card.Content
-        header='Arriaga'
-        meta='arriaga@lockhartgeo.com'
-      />
+      <Card.Content>
+      <Card.Header content='Arriaga' />
+      <a href="mailto:arriaga@lockhartgeo.com"><Card.Meta content='arriaga@lockhartgeo.com' /></a>
+      </Card.Content>
     </Card>
     </Card.Group>
     </Grid.Column>
