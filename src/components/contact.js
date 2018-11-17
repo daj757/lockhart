@@ -1,6 +1,7 @@
 import React from 'react'
 import field2 from '../images/field2.jpg'
 import crew from '../images/crew.jpg'
+
 import {
   Container,
   Image,
@@ -57,7 +58,7 @@ const Contact = () => (
 
     <Card>
       <Card.Content>
-      <Card.Header content='Arriaga' />
+      <Card.Header content='Carlos Arriaga' />
       <a href="mailto:arriaga@lockhartgeo.com"><Card.Meta content='arriaga@lockhartgeo.com' /></a>
       </Card.Content>
     </Card>
