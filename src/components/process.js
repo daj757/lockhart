@@ -36,11 +36,12 @@ const Process = () => (
       }}
     />
     <Container fluid>
-      <Grid padded stretched stackable columns={3}>
+      <Grid padded stretched stackable columns={4}>
         <Grid.Column>
           <Segment>
             <Header textAlign="center" content="Permitting" />
             <Image rounded centered src={permitting} />
+            <br/>
             <p>
               Your first contact with us is through our permit staff. When
               Lockhart is contracted by an oil company/operator to perform a
@@ -54,6 +55,7 @@ const Process = () => (
           <Segment>
             <Header textAlign="center" content="Seismic Aquisition" />
             <Image rounded centered src={seismic} />
+            <br/>
             <p>
               Lockhart acquires 2D & 3D surveys for our oil-prospecting clients.
               Surveys are designed per the client's specifications, with special
@@ -69,12 +71,25 @@ const Process = () => (
           <Segment>
             <Header textAlign="center" content="Equipment" />
             <Image rounded centered src={truck} />
+            <br/>
             <p>
               Geophones (recording devices) are connected to cables and a
               recording truck over the prospective area. Vibrator trucks then
               shake on predetermined points, the sound waves travel through the
               earth to the geophones and are then relayed back to a recording
               truck.
+            </p>
+          </Segment>
+        </Grid.Column>
+        <Grid.Column>
+          <Segment>
+            <Header textAlign="center" content="Improving our proccess" />
+            <Image rounded centered src={permitting} />
+            <br/>
+            <p>
+              We strive to use the best technology for the job at hand. Drones allow us to minimize
+              field damages and provide clients
+              with detailed pre/post field surveys.
             </p>
           </Segment>
         </Grid.Column>

@@ -1,7 +1,6 @@
 import React from 'react'
 import field2 from '../images/field2.jpg'
-import jaime from '../images/jaime.jpg'
-import carlos from '../images/carlos.jpg'
+import crew from '../images/crew.jpg'
 import {
   Container,
   Image,
@@ -10,7 +9,8 @@ import {
   List,
   Embed,
   Modal,
-  Card
+  Card,
+  Icon
 } from 'semantic-ui-react'
 
 const Contact = () => (
@@ -34,24 +34,35 @@ const Contact = () => (
         inverted
         content="Contact Us"
       />
-      <Grid columns={2} padded>
-      <Grid.Row columns={3}>
-      <Card.Group centered stackable>
-            <Card  color="black">
-              <Image raised src={jaime}/>
-              <Card.Content>
-                <Card.Header>Jaime Jimenez</Card.Header>
-                <Card.Description>Email: jaime@lockhartgeo.com</Card.Description>
-              </Card.Content>
-            </Card>
-            <Card raised color="black">
-              <Image src={carlos}/>
-              <Card.Content>
-                <Card.Header>Carlos Jimenez</Card.Header>
-                <Card.Description>Email: carlos@lockhartgeo.com</Card.Description>
-              </Card.Content>
-            </Card>
-          </Card.Group>
+      <Grid stackable columns={2} padded>
+      <Grid.Row columns={2}>
+    <Grid.Column>
+    <Image src={crew}size='large' rounded />
+    </Grid.Column>
+    <Grid.Column >
+    <Card.Group centered>
+    <Card>
+      <Card.Content>
+        <Card.Header>Jaime Jimenez</Card.Header>
+       <Card.Meta>jaime@lockhartgeo.com</Card.Meta>
+      </Card.Content>
+    </Card>
+
+    <Card>
+      <Card.Content>
+        <Card.Header content='Carlos Jimenez' />
+        <Card.Meta content='carlos@lockhartgeo.com' />
+      </Card.Content>
+    </Card>
+
+    <Card>
+      <Card.Content
+        header='Arriaga'
+        meta='arriaga@lockhartgeo.com'
+      />
+    </Card>
+    </Card.Group>
+    </Grid.Column>
           </Grid.Row>
         <Grid.Column>
           <Header
@@ -87,7 +98,13 @@ const Contact = () => (
                   iframe="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.626557664541!2d-100.91328435007146!3d37.98584357962201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8709f20d13900001%3A0x54c2e8748c3f90c0!2s2802+Jones+Ave%2C+Garden+City%2C+KS+67846!5e0!3m2!1sen!2sus!4v1523761565507"
                 />
                 <Modal.Description>
-                  <Header>Lockhart Office</Header>
+                  <Header   
+                  size="medium"
+                  inverted
+                  content="Lockhart Office"
+                  textAlign="center"
+                  style={{ fontFamily: 'Russo One, sans-serif' }}>
+                  </Header>
                 </Modal.Description>
               </Modal.Content>
             </Modal>
