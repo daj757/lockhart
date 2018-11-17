@@ -16,10 +16,9 @@ export default class Header extends Component {
         <Responsive minWidth={768}>
           <Menu
             style={{ fontFamily: 'Russo One, sans-serif' }}
-            borderless={true}
             inverted
             fluid
-            widths={7}
+            widths={6}
             fixed="top"
           >
             <Menu.Item>
@@ -92,8 +91,8 @@ export default class Header extends Component {
                 style={{
                   color: 'white',
                   marginLeft: '15px',
-                  marginTop: '10px',
-                  fontSize: '20px',
+                  marginTop: '15px',
+                  fontSize: '25px',
                 }}
                 icon="bars"
               >
