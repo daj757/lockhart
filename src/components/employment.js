@@ -33,7 +33,7 @@ const Employment = () => (
       content="Employment"
     />
     <Image centered size="large" rounded src={employee} />
-
+  <br />
     <Container text>
       <p
         style={{

@@ -30,7 +30,7 @@ const Process = () => (
       content="Our Process"
       style={{
         padding: '45px',
-        paddingTop: '55px',
+        paddingTop: '70px',
         fontSize: '35px',
         fontFamily: 'Russo One, sans-serif',
       }}
@@ -88,7 +88,7 @@ const Process = () => (
             <br/>
             <p>
               We strive to use the best technology for the job at hand. Drones allow us to minimize
-              field damages and provide clients
+              field damages, find the best access points for our trucks, and provide clients
               with detailed pre/post field surveys.
             </p>
           </Segment>
