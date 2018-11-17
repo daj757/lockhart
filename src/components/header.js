@@ -96,15 +96,7 @@ export default class Header extends Component {
                 }}
                 icon="bars"
               >
-                <Dropdown.Menu>
-                  {/* <Dropdown.Item
-                    name="our-people"
-                    active={activeItem === 'our-people'}
-                    onClick={this.handleItemClick}
-                    href="#our-people"
-                  >
-                    Our People
-                  </Dropdown.Item> */}
+                <Dropdown.Menu >
                   <Dropdown.Item
                     name="our-process"
                     active={activeItem === 'our-process'}
