@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Menu, Responsive, Dropdown } from 'semantic-ui-react'
-import Employment from './employment'
 import logo from '../images/logo.png'
 export default class Header extends Component {
   state = {}

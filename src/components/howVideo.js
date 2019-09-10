@@ -1,6 +1,6 @@
 import React from 'react'
 import sky from '../images/sky.jpg'
-import { Container, Image, Header, Embed } from 'semantic-ui-react'
+import { Container, Header, Embed } from 'semantic-ui-react'
 
 const HowVideo = () => (
   <div

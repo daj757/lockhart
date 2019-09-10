@@ -11,7 +11,6 @@ import {
   Embed,
   Modal,
   Card,
-  Icon
 } from 'semantic-ui-react'
 
 const Contact = () => (

@@ -3,10 +3,7 @@ import grass from '../images/grass.jpg'
 import {
   Container,
   Image,
-  Header,
-  Responsive,
-  Card,
-  Grid,
+  Header
 } from 'semantic-ui-react'
 import employee from '../images/employment.jpeg'
 

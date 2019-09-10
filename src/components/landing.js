@@ -3,10 +3,7 @@ import React from 'react'
 import {
   Image,
   Header,
-  Segment,
-  SegmentGroup,
-  Responsive,
-  Container,
+  Responsive
 } from 'semantic-ui-react'
 
 const LandingPage = () => (
