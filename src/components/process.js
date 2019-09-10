@@ -3,8 +3,8 @@ import field from '../images/field.jpg'
 import permitting from '../images/permitting.jpg'
 import seismic from '../images/seismic.jpg'
 import truck from '../images/truck.jpg'
-import drone from '../images/drone.gif'
-import droneField from "../images/dronefield.gif"
+import drone from '../images/drone.mp4'
+import droneField from "../images/dronefield.mp4"
 import {
   Container,
   Image,
@@ -86,9 +86,16 @@ const Process = () => (
         <Grid.Column>
           <Segment>
             <Header textAlign="center" content="Improving our proccess" />
-            <Image rounded centered src={droneField}/>
+            <video autoplay loop muted playsinline>
+  <source src={droneField} type="video/mp4"></source>
+</video>
+<br />
+<video autoplay loop muted playsinline>
+  <source src={drone} type="video/mp4"></source>
+</video>
+            {/* <Image rounded centered src={droneField}/>
             <br />
-            <Image rounded centered src={drone}/>
+            <Image rounded centered src={drone}/> */}
             <br/>
             <p>
               We strive to use the best technology for the job at hand. Drones allow us to minimize
