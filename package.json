@@ -4,15 +4,15 @@
   "version": "1.0.0",
   "author": "Danny Jimenez",
   "dependencies": {
-    "gatsby": "^2.0.45",
-    "gatsby-cli": "^2.4.5",
-    "gatsby-link": "^1.6.40",
-    "gatsby-plugin-react-helmet": "^2.0.10",
-    "react": "^16.6.1",
-    "react-dom": "^16.6.1",
-    "react-helmet": "^5.2.0",
+    "gatsby": "^2.15.13",
+    "gatsby-cli": "^2.7.47",
+    "gatsby-link": "^1.6.46",
+    "gatsby-plugin-react-helmet": "^2.0.11",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-helmet": "^5.2.1",
     "react-router-dom": "^4.3.1",
-    "semantic-ui-css": "^2.3.1",
+    "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^0.79.1"
   },
   "keywords": [
@@ -27,7 +27,7 @@
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "devDependencies": {
-    "gh-pages": "^2.0.1",
-    "prettier": "^1.11.1"
+    "gh-pages": "^2.1.1",
+    "prettier": "^1.18.2"
   }
 }
