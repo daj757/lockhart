@@ -82,14 +82,13 @@ export default class Header extends Component {
             style={{ fontFamily: 'Russo One, sans-serif' }}
             inverted
             fixed="top"
-            widths={3}
             borderless
           >
             <Menu.Menu position="left">
               <Dropdown
                 style={{
                   color: 'white',
-                  marginLeft: '15px',
+                  marginLeft: '30px',
                   marginTop: '15px',
                   fontSize: '25px',
                 }}
@@ -131,8 +130,10 @@ export default class Header extends Component {
                 </Dropdown.Menu>
               </Dropdown>
             </Menu.Menu>
-            <Menu.Item>
-              <img centered src={logo}/>
+            <Menu.Item  style={{
+                  marginLeft: '143px',
+                }}>
+              <img  src={logo}/>
             </Menu.Item>
             <Menu.Item>
               

@@ -3,8 +3,7 @@ import field from '../images/field.jpg'
 import permitting from '../images/permitting.jpg'
 import seismic from '../images/seismic.jpg'
 import truck from '../images/truck.jpg'
-import drone from '../images/drone.mp4'
-import droneField from "../images/dronefield.mp4"
+import drone from '../images/drone.gif'
 import {
   Container,
   Image,
@@ -56,7 +55,7 @@ const Process = () => (
         <Grid.Column>
           <Segment>
             <Header textAlign="center" content="Seismic Aquisition" />
-            <Image rounded centered src={seismic} />
+            <Image alt="oil trucks" rounded centered src={seismic} />
             <br/>
             <p>
               Lockhart acquires 2D & 3D surveys for our oil-prospecting clients.
@@ -72,7 +71,7 @@ const Process = () => (
         <Grid.Column>
           <Segment>
             <Header textAlign="center" content="Equipment" />
-            <Image rounded centered src={truck} />
+            <Image alt="oil trucks" rounded centered src={truck} />
             <br/>
             <p>
               Geophones (recording devices) are connected to cables and a
@@ -86,16 +85,16 @@ const Process = () => (
         <Grid.Column>
           <Segment>
             <Header textAlign="center" content="Improving our proccess" />
-            <video autoplay loop muted playsinline>
+            {/* <video autoplay loop muted >
   <source src={droneField} type="video/mp4"></source>
 </video>
 <br />
-<video autoplay loop muted playsinline>
+<video autoplay loop muted >
   <source src={drone} type="video/mp4"></source>
-</video>
-            {/* <Image rounded centered src={droneField}/>
-            <br />
-            <Image rounded centered src={drone}/> */}
+</video> */}
+            {/* <Image rounded centered src={droneField}/> */}
+            {/* <br /> */}
+            <Image alt="drone" rounded centered src={drone}/>
             <br/>
             <p>
               We strive to use the best technology for the job at hand. Drones allow us to minimize
